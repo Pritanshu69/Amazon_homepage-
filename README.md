@@ -7,3 +7,4 @@ Welcome to the Amazon Homepage Replica project! This open-source project aims to
 ```bash[
 https://github.com/Pritanshu69/Amazon_homepage-.git
 ```
+## Go through contribution.md to understand the rules and regulations. 
