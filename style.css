@@ -111,6 +111,8 @@ span{
 .panel-option p{
     display: inline;
      margin-left: 15px;
+     padding: 10px 20px;
+     transition: border 0.3s;
 }
 .panel-option{
     width: 70%;
@@ -120,9 +122,6 @@ span{
     font-size: 0.90rem;
     font-weight: 700;
 }
-.panel-section:hover {
-    border: 1px solid white;
-  }
 
 /* hero-section */
 .hero-section{
