@@ -108,17 +108,29 @@ span{
     align-items: center;
     justify-content: space-evenly;
 }
-.panel-option p{
+.panel-option p {
     display: inline;
      margin-left: 15px;
+}
+.panel-option p a{
+    color: #ffffff;
+    text-decoration: none;
 }
 .panel-option{
     width: 70%;
     font-size: 0.85rem;
 }
-.panel-deals{
+/* adding working and styling to the shop deals in electronics button */
+.panel-deals a{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
     font-size: 0.90rem;
-    font-weight: 700;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 /* hero-section */
@@ -173,11 +185,18 @@ span{
     margin-right: 10px;
 }
 .box-content a{
-    color: #007185;
+    color: #007185;    
+}
+
+/* adding hover effect on see more hyperlink */
+.box-content a:hover{
+    color: #c7511f;
 }
 
 /* footer */
-.footer-panel1{
+/* adding fuctionality and adding some css properties on back to top button */
+
+.footer-panel1 a{
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -186,7 +205,12 @@ span{
     align-items: center;
     font-size: 0.85rem;
     margin-top: 15px;
+    text-decoration: none;
 }
+.footer-panel1 a:hover{
+    background-color: #44576f;
+}
+
 .footer-panel2{
     background-color: #222f3d;
     color: white;
@@ -194,6 +218,20 @@ span{
     display: flex;
 
 }
+.footer-panel2 #broadText {
+    font-weight: 700;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer-panel2 a{
+    text-decoration: none;
+}
+.footer-panel2 a:hover{
+    text-decoration: underline;
+}
+
+
 ul{
     margin-top: 20px;
 }
