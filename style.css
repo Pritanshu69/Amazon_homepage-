@@ -93,10 +93,34 @@ span{
     font-weight: 700;
 
 }
-
-.nav-cart i{
-    font-size: 30px;
+/* Cart Logo */
+.nav-cart-link {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    position: relative;
+}
+  
+.nav-cart-icon {
+    width: 50px;
+}
+  
+.nav-cart-text {
+    margin-top: 12px;
+    font-size: 15px;
     font-weight: 700;
+}
+  
+.nav-cart-quantity {
+    color: rgb(240, 136, 4);
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    width: 26px;
+    text-align: center;
 }
 
 /* panel */
