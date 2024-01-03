@@ -25,7 +25,7 @@
     border: 2px solid transparent
 }
 .border:hover{
-    border: 1px solid white;
+    cursor: pointer;
 }
 /* box2 */
 .add-first{
@@ -172,6 +172,18 @@ span{
 
 /* shop-section */
 
+
+
+.shop {
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*Shop*/
 .shop-section {
     display: flex;
     justify-content: space-around;
@@ -187,6 +199,8 @@ span{
     transition: transform 0.2s;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Set a fixed width for each box */
+    height: 350px;
   }
 
   .box:hover {
@@ -195,7 +209,7 @@ span{
 
   .box img {
     width: 100%;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
   }
 
@@ -216,6 +230,8 @@ span{
     color: #007185;
     text-decoration: none;
     font-weight: bold;
+    display: block;
+    margin-top: 10px;
   }
 
 /* footer */
