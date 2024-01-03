@@ -120,6 +120,9 @@ span{
     font-size: 0.90rem;
     font-weight: 700;
 }
+.panel-section:hover {
+    border: 1px solid white;
+  }
 
 /* hero-section */
 .hero-section{
