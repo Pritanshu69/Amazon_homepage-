@@ -107,20 +107,39 @@ span{
     color: white;
     align-items: center;
     justify-content: space-evenly;
+    
 }
-.panel-option p{
+.panel-option li{
     display: inline;
-     margin-left: 15px;
-     padding: 10px 20px;
      transition: border 0.3s;
+     height: 100%;
 }
 .panel-option{
     width: 70%;
     font-size: 0.85rem;
+    transition: background-color 0.3s;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
 }
 .panel-deals{
     font-size: 0.90rem;
     font-weight: 700;
+}
+.panel-option li:hover{
+    border: 1px solid white;
+}
+.panel-all ,.panel-deals{
+    height: 100%;
+    transition: border 0.3s;
+}
+.panel-all div,.panel-deals p,.panel-option p{
+    padding: 13px 8px 0 8px;
+}
+.panel-all:hover ,.panel-deals:hover{
+    border: 1px solid white;
 }
 
 /* hero-section */
