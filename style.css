@@ -157,7 +157,7 @@ span{
 .hero-msg{
     background-color: white;
     color: black;
-    height: 40px;
+/*     height: 40px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,6 +165,9 @@ span{
     bottom:25px;
     width: 80%;
     margin-bottom: 25px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .hero-msg a{
     color: #007185;
