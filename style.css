@@ -237,6 +237,10 @@ span{
     margin-top: 10px;
   }
 
+  .box-content a:hover{
+    color: #c7511f;
+  }
+
 /* footer */
 .footer-panel1 a{
     background-color: #37475a;
@@ -267,6 +271,7 @@ ul a{
     font-size: 0.85rem;
     margin-top: 10px;
     color: #DDDDDD;
+    text-decoration: none;
 }
 .footer-panel3{
     background-color: #222f3d;
