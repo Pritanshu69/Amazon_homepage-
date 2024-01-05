@@ -300,6 +300,26 @@ ul a{
     font-size: 0.70rem;
 text-align: center;
 }
+@media only screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-panel1,
+    .footer-panel2,
+    .footer-panel3,
+    .footer-panel4 {
+        
+        width: 100%;
+    }
+  
+
+    .footer-section {
+        text-align: center;
+    }
+}
 .pages{
 
 padding-top: 25px;
