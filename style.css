@@ -146,28 +146,29 @@ span{
 }
 
 /* hero-section */
-.hero-section{
-    background-image: url(hero_amazon.jpg);
+ .hero-section{
+    background-image: url(crouselamazon2.jpg);/* changed the background images of the hero section */
     background-size: cover;
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
+} 
 .hero-msg{
     background-color: white;
     color: black;
-/*     height: 40px; */
+    height: 15px;  /*added height to the hero-msg div*/
     display: flex;
     align-items: center;
     justify-content: center;
     font: 0.85rem;
     bottom:25px;
     width: 80%;
-    margin-bottom: 25px;
+    margin-bottom: 5px; /*changed the margin dimenssions */
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    
 }
 .hero-msg a{
     color: #007185;
