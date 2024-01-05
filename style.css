@@ -237,8 +237,12 @@ span{
     margin-top: 10px;
   }
 
+  .box-content a:hover{
+    color: #c7511f;
+  }
+
 /* footer */
-.footer-panel1{
+.footer-panel1 a{
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -247,6 +251,10 @@ span{
     align-items: center;
     font-size: 0.85rem;
     margin-top: 15px;
+    text-decoration: none;
+}
+.footer-panel1 a:hover{
+    background-color: #44576f;
 }
 .footer-panel2{
     background-color: #222f3d;
@@ -263,6 +271,7 @@ ul a{
     font-size: 0.85rem;
     margin-top: 10px;
     color: #DDDDDD;
+    text-decoration: none;
 }
 .footer-panel3{
     background-color: #222f3d;
