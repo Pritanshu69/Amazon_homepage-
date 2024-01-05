@@ -146,33 +146,39 @@ span{
 }
 
 /* hero-section */
-.hero-section{
-    background-image: url(hero_amazon.jpg);
+ .hero-section{
+    background-image: url(crouselamazon2.jpg);/* changed the background images of the hero section */
     background-size: cover;
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
+} 
 .hero-msg{
     background-color: white;
     color: black;
-/*     height: 40px; */
+    height: 15px;  /*added height to the hero-msg div*/
     display: flex;
     align-items: center;
     justify-content: center;
     font: 0.85rem;
     bottom:25px;
     width: 80%;
-    margin-bottom: 25px;
+    margin-bottom: 5px; /*changed the margin dimenssions */
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    
 }
 .hero-msg a{
     color: #007185;
+    text-decoration: none; /* added text decoration : none ; so that intially the underlined part in the link is not shown */
 }
-
+/* added hover effect in the link , such that it changes the color and shows the underlined part in the link section */
+.hero-msg a:hover{
+    color:chocolate;
+    text-decoration: underline;
+}
 /* shop-section */
 
 
@@ -294,6 +300,26 @@ ul a{
     font-size: 0.70rem;
 text-align: center;
 }
+@media only screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-panel1,
+    .footer-panel2,
+    .footer-panel3,
+    .footer-panel4 {
+        
+        width: 100%;
+    }
+  
+
+    .footer-section {
+        text-align: center;
+    }
+}
 .pages{
 
 padding-top: 25px;
@@ -304,4 +330,9 @@ margin-top: 5px;
 }
 .pages a{
     color: #CCCCCC;
+}
+/* adding hover effects on the links in the shopping section */
+.box-content a:hover{
+    text-decoration: underline;
+    color:chocolate;
 }
