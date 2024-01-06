@@ -338,7 +338,9 @@ margin-top: 5px;
 }
 
 .box{
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
