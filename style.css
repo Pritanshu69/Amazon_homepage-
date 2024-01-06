@@ -214,10 +214,10 @@ span{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 30px;
+    font-size: 60px;
     cursor: pointer;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     padding: 10px;
     border: none;
     outline: none;
