@@ -155,7 +155,7 @@ span{
     align-items: flex-end;
 } 
 .hero-msg{
-    background-color: white;
+    background-color: rgb(150, 146, 146);
     color: black;
     height: 15px;  /*added height to the hero-msg div*/
     display: flex;
@@ -163,7 +163,7 @@ span{
     justify-content: center;
     font: 0.85rem;
     bottom:25px;
-    width: 80%;
+    width: 100vw;
     margin-bottom: 5px; /*changed the margin dimenssions */
     text-align: center;
     padding-top: 15px;
@@ -179,6 +179,59 @@ span{
     color:chocolate;
     text-decoration: underline;
 }
+
+
+/*properties for image slider*/
+
+
+.slider-container {
+    width: 500vw;
+    max-width: 100vw;
+    margin: 0 auto;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+
+  .prev { left: 10px; }
+  .next { right: 10px; }
+
+
+
+
+
+
+
 /* shop-section */
 
 
@@ -300,12 +353,16 @@ ul a{
     font-size: 0.70rem;
 text-align: center;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1010px) {
     footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+
+    .slider-container {
+        height: 40vh;
+      }
 
     .footer-panel1,
     .footer-panel2,
