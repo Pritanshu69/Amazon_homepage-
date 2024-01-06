@@ -336,3 +336,60 @@ margin-top: 5px;
     text-decoration: underline;
     color:chocolate;
 }
+
+.box{
+    background-size: contain;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.box:hover{
+    opacity: 0.8;
+}
+.box1{
+    background-image: url("/box1_image.jpg");
+}
+.box2{
+    background-image: url("/box2_image.jpg");
+}
+.box3{
+    background-image: url("/box3_image.jpg");
+}
+.box4{
+    background-image: url("/box4_image.jpg");
+}
+.box5{
+    background-image: url("/box5_image.jpg");
+}
+.box6{
+    background-image: url("/box6_image.jpg");
+}
+.box7{
+    background-image: url("/box7_image.jpg");
+}
+.box8{
+    background-image: url("/box8_image.jpg");
+}
+.box9{
+    background-image: url("/box9_image.jpg");
+}
+.box10{
+    background-image: url("/box10_image.jpg");
+}
+.box11{
+    background-image: url("/box11_image.jpg");
+}
+.box12{
+    background-image: url("/box12_image.jpg");
+}
+.box13{
+    background-image: url("/box13_image.jpg");
+}
+.box14{
+    background-image: url("/box14_image.jpg");
+}
+.box15{
+    background-image: url("/box15_image.jpg");
+}
+.box16{
+    background-image: url("/box16_image.jpg");
+}
