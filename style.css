@@ -5,7 +5,7 @@
 }
 .navbar{
     height: 60px;
-    background-color: #0F1111;
+    background-color: #131a22;
     color: white;
     display: flex;
     align-items: center;
@@ -130,15 +130,24 @@ span{
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.panel-options{
+    display: flex;
+    padding-left: 10px;
 }
 .panel-option p{
     display: inline;
      margin-left: 15px;
+     width: max-content;
 }
 .panel-option{
     width: 70%;
     font-size: 0.85rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
 }
 .panel-deals{
     font-size: 0.90rem;
