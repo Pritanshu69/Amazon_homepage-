@@ -216,10 +216,14 @@ span{
     display: flex;
     padding-left: 10px;
 }
-.panel-option p{
+.panel-option p {
     display: inline;
      margin-left: 15px;
 width: max-content;
+}
+.panel-option p a{
+    color: #f4f4f4;
+    text-decoration: none;
 }
 .panel-option{
     width: 70%;
@@ -232,6 +236,10 @@ display: flex;
 .panel-deals{
     font-size: 0.90rem;
     font-weight: 700;
+}
+.panel-deals a{
+    text-decoration: none;
+    color: #f4f4f4;
 }
 
 /* hero-section */
