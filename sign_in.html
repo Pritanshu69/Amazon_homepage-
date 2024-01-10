@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Amazon Sign In</title>
+  <link rel="stylesheet"
+    href="https://images-eu.ssl-images-amazon.com/images/I/61A6IErPNXL._RC|11Fd9tJOdtL.css,11tfezETfFL.css,31Q3id-QR0L.css,31U9HrBLKmL.css_.css?AUIClients/AmazonUI#us.not-trident">
+  <link rel="stylesheet"
+    href="https://images-eu.ssl-images-amazon.com/images/I/01SdjaY0ZsL._RC|31jdWD+JB+L.css,51ndJ60shfL.css_.css?AUIClients/AuthenticationPortalAssets">
+  <link rel="stylesheet" href="https://images-eu.ssl-images-amazon.com/images/I/21PFuszay6L.css?AUIClients/CVFAssets">
+  <link rel="stylesheet" href="sign_in.css">
+</head>
+
+<body>
+  <div class="amazonImg">
+    <a href="https://www.amazon.in/">
+      <i class="a-icon a-icon-logo" role="" aria-label="Amazon"></i>
+      <i class="a-icon a-icon-domain-in a-icon-domain" role="presentation"></i>
+    </a>
+  </div>
+  <div class="outerdiv1">
+    <div class="signincard">
+      <div class="innerbox">
+        <h1 class="a-small">Sign in</h1>
+        <label for="mob_email" class="common">Email or mobile phone number</label>
+        <input type="text" maxlength="128" id="mob_email" class="EM" required>
+
+        <div class="password_section">
+          <div class="a-row">
+            <div class="col1 common">
+              <label for="ap_password">Password</label>
+            </div>
+            <div class="col2">
+              <a href="#">Forgot Password</a>
+            </div>
+          </div>
+          <input type="password" maxlength="1024" id="ap_password" class="EM" required>
+        </div>
+        <!-- Error messages for sign-in form -->
+        <div class="error-message-container">
+          <div id="email-error" class="error-message"></div>
+          <div id="password-error" class="error-message"></div>
+        </div>
+        <div class="buttonsection">
+          <span class="a-button-inner">
+            <input type="submit" tabindex="5" class="innerButton" value="Sign in">
+          </span>
+        </div>
+        <div class="para">
+          By continuing, you agree to Amazon's
+          <a href="#">Consitions of Use</a> and <a href="#">Privacy Notice.</a>
+        </div>
+        <div class="remember">
+          <input type="checkbox" name="rememberMe" id="" tabindex="4" value="true">
+          <i class="a-icon a-icon-checkbox"></i>
+          <span>Keep me signed in. <span><a href="#">Details <i class="a-icon a-icon-popover"></i></a></span></span>
+        </div>
+        <div class="newaccount">
+          <h5 aria-level="5">New to Amazon?</h5>
+        </div>
+
+        <span class="create_account" id="createaccount">
+          <a href="#">Create your Amazon account</a>
+        </span>
+      </div>
+    </div>
+
+  </div>
+  <div class="displayProperty outerdiv2">
+    <div class="signincard">
+      <div class="innerbox">
+        <h1 class="a-small">Create account</h1>
+        <label for="name" class="common">Your name</label>
+        <input type="text" maxlength="128" id="name" class="EM" placeholder="First and last name" required>
+        <label for="email" class="common">Email</label>
+        <input type="text" maxlength="128" id="email" class="EM">
+        <div class="password_section">
+          <div class="a-row">
+            <div class="col1 common">
+              <label for="reg_password">Password</label>
+            </div>
+          </div>
+          <input type="password" maxlength="1024" id="reg_password" class="EM" placeholder="At least 6 characters"
+            required>
+        </div>
+        <div class="passwordinfo">
+          <i class="a-icon a-icon-alert"></i>
+          <div class="alertmessage">Password must be at least 6 characters.</div>
+        </div>
+        <div class="cnf"></div>
+        <div class="password_section">
+          <div class="a-row">
+            <div class="col1 common">
+              <label for="cnf_password">Password again</label>
+            </div>
+          </div>
+          <input type="password" maxlength="1024" id="cnf_password" class="EM" required>
+        </div>
+        <!-- Error messages for sign-up form -->
+        <div class="error-message-container">
+          <div id="name-error" class="error-message"></div>
+          <div id="email-signup-error" class="error-message"></div>
+          <div id="password-signup-error" class="error-message"></div>
+          <div id="cnf-password-error" class="error-message"></div>
+        </div>
+        <div class="buttonsection" style="margin-top: -8px;">
+          <span class="a-button-inner">
+            <input type="submit" tabindex="5" class="innerButton" value="Create your Amazon account">
+          </span>
+        </div>
+        <div class="para">
+          By creating an account or logging in, you agree to Amazon’s
+          <a href="#">Consitions of Use</a> and <a href="#">Privacy Policy.</a>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="have_account">
+          <span>Already have an account?</span><a href="#" id="reg-signin"> Sign in</a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="rular"></div>
+  <span class="info">
+    <a href="#">Conditions of Use</a>
+    <span class="separation"></span>
+    <a href="#">Privacy Notice</a>
+    <span class="separation"></span>
+    <a href="#">Help</a>
+  </span>
+  <div class="copyright">
+    <span class="copytext">&copy 1996-<span id="year"></span>, Amazon.com, Inc. or its affiliates</span>
+  </div>
+
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+
+  </script>
+  <script src="signin_signup.js"></script>
+</body>
+
+</html>
