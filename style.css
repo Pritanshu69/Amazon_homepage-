@@ -121,6 +121,25 @@ hr{
 
 
 
+.ham-link{
+    text-decoration: none;
+    color: black;
+  }
+
+.ham-link:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+.removed{
+    filter: brightness(20%);
+}
+
+.removed-ham{
+    display: flex;
+}
+
+
 
 
 
