@@ -48,3 +48,30 @@ cros.addEventListener('click', ()=>{
     imp.classList.remove('removed');
 
 })
+
+function showDiscounts() {
+    // Assume you have a list of discounted items
+    const discountedItems = [
+      { name: 'Product 1', discount: 20 },
+      { name: 'Product 2', discount: 15 },
+      // Add more items as needed
+    ];
+  
+    // Get the discount list container
+    const discountList = document.getElementById('discount-list');
+  
+    // Clear previous content
+    discountList.innerHTML = '';
+  
+    // Populate the discount list
+    discountedItems.forEach(item => {
+      const listItem = document.createElement('div');
+      listItem.classList.add('discount-item');
+      listItem.innerHTML = `<p>${item.name} - ${item.discount}% off</p>`;
+      discountList.appendChild(listItem);
+    });
+  
+    // Show the discount list
+    discountList.classList.remove('hidden');
+  }
+  

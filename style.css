@@ -484,3 +484,32 @@ margin-top: 5px;
     text-decoration: underline;
     color:chocolate;
 }
+
+/* discount section */
+
+.discount-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .discount-section h2 {
+    color: #333;
+  }
+  
+  .discount-section p {
+    color: #666;
+  }
+  
+  #discount-list {
+    margin-top: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .discount-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
