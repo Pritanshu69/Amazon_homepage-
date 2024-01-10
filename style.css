@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
@@ -208,18 +209,104 @@ span{
     height: 40px;
     background-color: #222f3d;
     display: flex;
+    gap:3px;
+    
     color: white;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 .panel-options{
     display: flex;
     padding-left: 10px;
 }
-.panel-option p {
-    display: inline;
-     margin-left: 15px;
-width: max-content;
+
+.panel-option a {
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:7px 14px;
+    position:relative;
+    font-size: 15px;
+    margin-left: 15px;
+    color: white;
+    width: max-content;
+}
+.panel-option a::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    left:0%;
+    border-top: 2px solid  #222f3d;
+    border-left: 2px solid  #222f3d;
+    border-right: 2px solid  #222f3d;
+    border-bottom: 2px solid  #222f3d;
+}
+.panel-option a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    left:0%;
+    border-top: 2px solid  #222f3d;
+    border-left: 2px solid  #222f3d;
+    border-right: 2px solid  #222f3d;
+    border-bottom: 2px solid  #222f3d;
+}
+.panel-option a:hover::before,
+    a:hover::after{
+        border-top: 2px solid white;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    width: 100%;
+    height: 100%;
+    
+}
+.pan a {
+    text-decoration:none;
+    padding: -1px 7px; 
+    position:relative;
+    margin-left: 5px;
+    color: white;
+    width: max-content;
+}
+.pan a::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    left:0%;
+    border-top: 2px solid  #222f3d;
+    border-left: 2px solid  #222f3d;
+    border-right: 2px solid  #222f3d;
+    border-bottom: 2px solid  #222f3d;
+}
+.pan a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    left:0%;
+    border-top: 2px solid  #222f3d;
+    border-left: 2px solid  #222f3d;
+    border-right: 2px solid  #222f3d;
+    border-bottom: 2px solid  #222f3d;
+}
+.pan a:hover::before,
+    a:hover::after{
+        border-top: 2px solid white;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    width: 100%;
+    height: 100%;
+    
 }
 .panel-option p a{
     color: #f4f4f4;
@@ -228,9 +315,9 @@ width: max-content;
 .panel-option{
     width: 70%;
     font-size: 0.85rem;
-display: flex;
+    display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: left;
     width: fit-content;
 }
 .panel-deals{
