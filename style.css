@@ -247,17 +247,38 @@ span{
 }
 /*Shop*/
 .shop-section {
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-    column-gap: 3rem;
-    row-gap: 4rem;
-    margin-left: 50px;
+    
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin: 50px;
   }
-
+  #Homedec{
+    margin-top: 39px;
+  }
+#furniture{
+    margin-top: 57px;
+}
+#Electronic{
+    margin-top: 53px;
+}
+#beauty{
+    margin-top: 35px;
+}
+#Pet{
+    margin-top: 53px;
+}
+#kids{
+    margin-top: 50px;
+}
+#fashion{
+    margin-top: 22px;
+}
   .box {
     background-color: #ffffff;
     border: 1px solid #dddddd;
