@@ -122,6 +122,25 @@ hr{
 
 
 
+.ham-link{
+    text-decoration: none;
+    color: black;
+  }
+
+.ham-link:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+.removed{
+    filter: brightness(20%);
+}
+
+.removed-ham{
+    display: flex;
+}
+
+
 
 
 
@@ -431,13 +450,41 @@ span{
 }
 /*Shop*/
 .shop-section {
-    display: flex;
+    
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+arrange
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin: 50px;
     background-color: white;
+ main
   }
-
+  #Homedec{
+    margin-top: 39px;
+  }
+#furniture{
+    margin-top: 57px;
+}
+#Electronic{
+    margin-top: 53px;
+}
+#beauty{
+    margin-top: 35px;
+}
+#Pet{
+    margin-top: 53px;
+}
+#kids{
+    margin-top: 50px;
+}
+#fashion{
+    margin-top: 22px;
+}
   .box {
     background-color: #ffffff;
     border: 1px solid #dddddd;
