@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
@@ -179,6 +179,33 @@ hr{
     border-bottom-left-radius: 4px;
     color: #0F1111;
 }
+.address border a {
+    text-decoration: none ;
+    display: flex;
+    gap: 8px;
+    color: white;
+}
+.address  :hover{
+    border: 2px solid white;
+}
+.nav-signin a {
+    display: flex;
+    gap: 8px;
+    text-decoration: none ;
+    color: white;
+}
+.nav-signin:hover{
+    border: 2px solid white;
+}
+.nav-return a {
+    display: flex;
+    gap: 8px;
+    text-decoration: none ;
+    color: white;
+}
+.nav-return:hover{
+    border: 2px solid white;
+}
 
 .nav-search:hover{
     border: 2px solid orange;
@@ -201,7 +228,9 @@ span{
     text-decoration: none;
     position: relative;
 }
-  
+.nav-cart border:hover{
+    border: 2px solid white;
+}
 .nav-cart-icon {
     width: 50px;
 }
@@ -210,6 +239,13 @@ span{
     margin-top: 12px;
     font-size: 15px;
     font-weight: 700;
+}
+
+.nav-return:hover{
+    border: 2px solid white;
+}
+.nav-cart:hover{
+    border: 2px solid white;
 }
   
 .nav-cart-quantity {
@@ -454,7 +490,7 @@ span{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-arrange
+.arrange{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
