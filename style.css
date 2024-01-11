@@ -393,10 +393,11 @@ img {
 
 /*Shop*/
 .shop-section {
-
+    
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+arrange
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
