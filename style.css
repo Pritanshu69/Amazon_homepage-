@@ -231,14 +231,24 @@ span{
     align-items: center;
     justify-content: space-between;
 }
-.panel-options{
+div.panel-all {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+div.panel-option{
+    padding-left: 0px;
+    justify-content: flex-start;
+}
+
+.panel-option{
     display: flex;
     padding-left: 10px;
 }
 .panel-option p {
     display: inline;
-     margin-left: 15px;
-width: max-content;
+     margin-left: 10px;
+     width: auto;
+     text-align: left;
 }
 .panel-option p a{
     color: #f4f4f4;
@@ -247,10 +257,10 @@ width: max-content;
 .panel-option{
     width: 70%;
     font-size: 0.85rem;
-display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    width: fit-content;
+    justify-content: left;
 }
 .panel-deals{
     font-size: 0.90rem;
