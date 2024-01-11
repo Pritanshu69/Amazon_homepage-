@@ -1,0 +1,340 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #111;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.amazonImg {
+
+  margin: auto;
+  margin-top: 15px;
+}
+
+.signincard {
+  border-radius: 8px;
+  display: block;
+  border: 1px #ddd solid;
+  background-color: #fff;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.innerbox {
+  position: relative;
+  padding: 20px 26px !important;
+}
+
+
+.a-small {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px !important;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.2;
+  text-rendering: optimizeLegibility;
+  padding-bottom: 4px;
+  display: block;
+  text-align: left;
+}
+
+.common {
+  display: block;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.EM {
+  width: 100%;
+  margin-right: 0;
+  background-color: #fff;
+  height: 31px;
+  padding: 3px 7px;
+  line-height: normal;
+  margin-bottom: 14px !important;
+}
+
+
+
+.a-row {
+  width: 100%;
+}
+
+.col1 {
+  width: 40.448%;
+  margin-right: 2%;
+  float: left;
+  min-height: 1px;
+  overflow: visible;
+}
+
+.col2 {
+  margin-right: 0;
+  float: right;
+  width: 57.448%;
+  text-align: right !important;
+}
+
+.col2 a {
+  text-decoration: none;
+}
+
+.buttonsection {
+  margin-bottom: 26px !important;
+}
+
+.a-button-inner {
+  border-radius: 8px;
+  background: 0 0;
+  box-shadow: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 29px;
+  cursor: pointer;
+  text-align: center;
+  background: #FFD814;
+  border-color: #FCD200;
+  box-shadow: 2px 5px 0 rgba(213, 217, 217, .2);
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  padding: 0;
+  text-align: center;
+  text-decoration: none !important;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.a-button-inner input {
+  position: absolute;
+  background-color: transparent;
+  color: black;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  outline: 0;
+  overflow: visible;
+  z-index: 20;
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+
+}
+
+.para {
+  width: 100%;
+  text-align: left;
+  margin-top: -5px;
+  font-size: 12px;
+}
+
+.remember {
+  margin-top: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.newaccount {
+  text-align: center;
+  position: relative;
+  top: 2px;
+  padding-top: 1px;
+  margin-bottom: 14px;
+  line-height: 0;
+  margin-top: 30px;
+}
+
+.newaccount::after {
+  content: "";
+  width: 100%;
+  background-color: transparent;
+  display: block;
+  height: 1px;
+  border-top: 1px solid #e7e7e7;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  z-index: 1;
+}
+
+.newaccount h5 {
+  line-height: 1;
+  font-size: 12px;
+  color: #767676;
+  font-weight: 400;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0 8px 0 7px;
+}
+
+.create_account {
+  border-radius: 7px;
+  background: 0 0;
+  box-shadow: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 29px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, .3);
+  width: 100% !important;
+  border-style: solid;
+  border-width: 0.1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: middle;
+  background: #FFF;
+  border-color: #D5D9D9;
+}
+
+.create_account a {
+  color: #0F1111;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  margin: 0;
+  outline: 0;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 8px;
+  text-decoration: none !important;
+}
+
+
+.rular {
+
+  height: 44px;
+  margin-bottom: -18px;
+  margin-top: 26px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
+  zoom: 1;
+  display: block;
+  width: 90%;
+  background-color: transparent;
+  background: -webkit-linear-gradient(to right, #fff, rgba(255, 255, 255, 0), #fff);
+  z-index: 1;
+  content: "";
+}
+
+.info a {
+  font-size: 11px;
+}
+
+.separation {
+  display: inline-block;
+  width: 20px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+.copytext {
+  font-size: 11px !important;
+  line-height: 1.465 !important;
+  color: #555 !important;
+}
+
+.displayProperty {
+  display: none;
+}
+
+.passwordinfo {
+  border-radius: 8px;
+  padding-left: 16px;
+  color: #2b2b2b;
+  padding: 0;
+  position: relative;
+  margin-top: -10px;
+
+}
+
+
+.a-icon-alert {
+  height: 13px;
+  width: 14px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  background-position: -166px -130px;
+}
+
+.a-icon-alert::after {
+  background-size: 400px 750px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
+  font-style: italic;
+}
+
+.alertmessage {
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px;
+  width: 90%;
+  display: inline-block;
+}
+
+.cnf {
+  width: 100%;
+  height: 12px;
+}
+
+.line {
+  margin-top: 40px;
+  height: 44px;
+  margin-bottom: -18px;
+
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
+  zoom: 1;
+}
+
+.have_account {
+  width: 100%;
+  text-align: left;
+}
+
+.error-message-container {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.error-message {
+  color: #FF0000;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
