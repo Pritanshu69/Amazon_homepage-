@@ -249,8 +249,8 @@ span {
 
 .panel-option p {
     display: inline;
-    margin-left: 15px;
-    width: max-content;
+     margin-left: 15px;
+width: max-content;
 }
 
 .panel-option p a {
@@ -264,7 +264,7 @@ span {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: fit-content;
+    justify-content: left;
 }
 
 .panel-deals {
