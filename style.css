@@ -373,10 +373,16 @@ div.panel-option{
 }
 /*Shop*/
 .shop-section {
-    
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 3rem;
+    row-gap: 4rem;
+    margin-left: 50px;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+	
 arrange
     display: grid;
     grid-template-columns: repeat(3,1fr);
