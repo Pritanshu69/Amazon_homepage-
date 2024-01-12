@@ -584,7 +584,7 @@ ul a{
     text-decoration: underline;
 }
 .footer-panel4 {
-    background-color: #0F1111;
+    background-color: #131a22;
     color: white;
     height: 80px;
     font-size: 0.70rem;
@@ -597,12 +597,21 @@ ul a{
 }
 
 .copyright {
-    padding-top: 5px;
+    padding-top: 1px;
     margin-top: 5px;
+    color: #ddddddd3;
+    font-size: 13px;
 }
 
 .pages a {
     color: #CCCCCC;
+    font-size: 13px;
+    margin: 5px 8px;
+    text-decoration: none;
+}
+
+.pages a:hover {
+    text-decoration: underline;
 }
 
 @media(max-width:762px) {
