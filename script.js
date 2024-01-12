@@ -49,7 +49,7 @@ cros.addEventListener('click', ()=>{
 
 })
 
-//discount section
+//discount section//
 function showDiscounts() {
     // Assume you have a list of discounted items
     const discountedItems = [
