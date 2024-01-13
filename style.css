@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
@@ -8,7 +8,7 @@
     filter: brightness(20%);
 } */
 
-.navbar{
+.navbar {
     height: 60px;
     background-color: #131a22;
     color: white;
@@ -16,38 +16,43 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.nav-logo{
+
+.nav-logo {
     height: 50px;
     width: 110px;
 }
-.logo{
+
+.logo {
     background-image: url(amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
 }
-.border{
+
+.border {
     border: 2px solid transparent
 }
-.border:hover{
+
+.border:hover {
     cursor: pointer;
 }
+
 /* box2 */
-.add-first{
-color: #CCCCCC;
-font-size: 0.85rem;
-margin-left: 15px;
+.add-first {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
 }
 
-.add-second{
-color: white;
-font-size: 1rem;
-margin-left: 3px;
+.add-second {
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
 }
 
-.address-icon{
-display: flex;
-align-items: center;
+.address-icon {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -55,7 +60,7 @@ align-items: center;
 
 
 
-.ham-menu{
+.ham-menu {
     background-color: transparent;
     color: white;
     border: none;
@@ -63,7 +68,7 @@ align-items: center;
 }
 
 
-.hamburger{
+.hamburger {
     position: absolute;
     top: 0vh;
     left: 0.2vh;
@@ -78,64 +83,64 @@ align-items: center;
     border: 2px solid #0F1111;
 }
 
-hr{
+hr {
     background-color: gray;
 }
 
-.sign-top{
+.sign-top {
     display: flex;
     gap: 10px;
     align-items: center;
     position: relative;
     height: 7.5vh;
-    background-color:#232f3e;
+    background-color: #232f3e;
     width: 100%;
 }
 
-.sign-top img{
+.sign-top img {
     height: 6vh;
     filter: invert(100%);
     width: 35px;
     cursor: pointer;
 }
 
-.cross{
+.cross {
     position: absolute;
     top: 0vh;
     right: 1vw;
 }
 
-.sign-top > h2{
+.sign-top>h2 {
     color: white;
 }
 
-.subhed{
+.subhed {
     padding-left: 30px;
     padding-top: 12.5px;
     padding-bottom: 12.5px;
 }
 
-.hed{
+.hed {
     cursor: pointer;
 }
 
 
 
-.ham-link{
+.ham-link {
     text-decoration: none;
     color: black;
-  }
+}
 
 .ham-link:visited {
     text-decoration: none;
     color: black;
-  }
+}
 
-.removed{
+.removed {
     filter: brightness(20%);
 }
 
-.removed-ham{
+.removed-ham {
     display: flex;
 }
 
@@ -145,7 +150,7 @@ hr{
 
 
 /* box3 */
-.nav-search{
+.nav-search {
     display: flex;
     justify-content: space-evenly;
     background-color: #fedb68;
@@ -153,22 +158,23 @@ hr{
     height: 40px;
     border-radius: 4px;
 }
-.search-select{
+
+.search-select {
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
-    border: none ;
+    border: none;
 }
 
-.search-input{
+.search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
 }
 
-.search-icon{
+.search-icon {
     width: 45px;
     display: flex;
     justify-content: center;
@@ -179,19 +185,21 @@ hr{
     color: #0F1111;
 }
 
-.nav-search:hover{
+.nav-search:hover {
     border: 2px solid orange;
 }
 
 /* box-4 */
-span{
+span {
     font-size: 0.7rem;
 }
-.nav-second{
+
+.nav-second {
     font-size: 0.85rem;
     font-weight: 700;
 
 }
+
 /* Cart Logo */
 .nav-cart-link {
     color: white;
@@ -200,17 +208,17 @@ span{
     text-decoration: none;
     position: relative;
 }
-  
+
 .nav-cart-icon {
     width: 50px;
 }
-  
+
 .nav-cart-text {
     margin-top: 12px;
     font-size: 15px;
     font-weight: 700;
 }
-  
+
 .nav-cart-quantity {
     color: rgb(240, 136, 4);
     font-size: 18px;
@@ -223,7 +231,7 @@ span{
 }
 
 /* panel */
-.panel{
+.panel {
     height: 40px;
     background-color: #222f3d;
     display: flex;
@@ -231,30 +239,35 @@ span{
     align-items: center;
     justify-content: space-between;
 }
+
 div.panel-all {
     margin-left: 20px;
     margin-right: 10px;
 }
-div.panel-option{
+
+div.panel-option {
     padding-left: 0px;
     justify-content: flex-start;
 }
 
-.panel-option{
+.panel-option {
     display: flex;
     padding-left: 10px;
 }
+
 .panel-option p {
     display: inline;
-     margin-left: 10px;
-     width: auto;
-     text-align: left;
+    margin-left: 10px;
+    width: auto;
+    text-align: left;
 }
-.panel-option p a{
+
+.panel-option p a {
     color: #f4f4f4;
     text-decoration: none;
 }
-.panel-option{
+
+.panel-option {
     width: 70%;
     font-size: 0.85rem;
     display: flex;
@@ -262,47 +275,56 @@ div.panel-option{
     align-items: center;
     justify-content: left;
 }
-.panel-deals{
+
+.panel-deals {
     font-size: 0.90rem;
     font-weight: 700;
 }
-.panel-deals a{
+
+.panel-deals a {
     text-decoration: none;
     color: #f4f4f4;
 }
 
 /* hero-section */
- .hero-section{
-    background-image: url(crouselamazon2.jpg);/* changed the background images of the hero section */
+.hero-section {
+    background-image: url(crouselamazon2.jpg);
+    /* changed the background images of the hero section */
     background-size: cover;
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-} 
-.hero-msg{
+}
+
+.hero-msg {
     background-color: rgb(150, 146, 146);
     color: black;
-    height: 15px;  /*added height to the hero-msg div*/
+    height: 15px;
+    /*added height to the hero-msg div*/
     display: flex;
     align-items: center;
     justify-content: center;
     font: 0.85rem;
-    bottom:25px;
+    bottom: 25px;
     width: 100vw;
-    margin-bottom: 5px; /*changed the margin dimenssions */
+    margin-bottom: 5px;
+    /*changed the margin dimenssions */
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    
+
 }
-.hero-msg a{
+
+.hero-msg a {
     color: #007185;
-    text-decoration: none; /* added text decoration : none ; so that intially the underlined part in the link is not shown */
+    text-decoration: none;
+    /* added text decoration : none ; so that intially the underlined part in the link is not shown */
 }
+
 /* added hover effect in the link , such that it changes the color and shows the underlined part in the link section */
-.hero-msg a:hover{
-    color:chocolate;
+.hero-msg a:hover {
+    color: chocolate;
     text-decoration: underline;
 }
 
@@ -317,26 +339,27 @@ div.panel-option{
     height: 60vh;
     overflow: hidden;
     position: relative;
-  }
+}
 
-  .slider {
+.slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
     height: 100%;
-  }
+}
 
-  .slide {
+.slide {
     min-width: 100%;
     box-sizing: border-box;
-  }
+}
 
-  img {
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  .prev, .next {
+.prev,
+.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -347,10 +370,15 @@ div.panel-option{
     padding: 10px;
     border: none;
     outline: none;
-  }
+}
 
-  .prev { left: 10px; }
-  .next { right: 10px; }
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
 
 
 
@@ -371,50 +399,60 @@ div.panel-option{
     margin: 0 auto;
     padding: 20px;
 }
+
 /*Shop*/
 .shop-section {
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     column-gap: 3rem;
     row-gap: 4rem;
     margin-left: 50px;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-	
-arrange
+}
+
+arrange {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     column-gap: 1rem;
     row-gap: 2rem;
     margin: 50px;
     background-color: white;
- main
-  }
-  #Homedec{
+}
+
+
+#Homedec {
     margin-top: 39px;
-  }
-#furniture{
+}
+
+#furniture {
     margin-top: 57px;
 }
-#Electronic{
+
+#Electronic {
     margin-top: 53px;
 }
-#beauty{
+
+#beauty {
     margin-top: 35px;
 }
-#Pet{
+
+#Pet {
     margin-top: 53px;
 }
-#kids{
+
+#kids {
     margin-top: 50px;
 }
-#fashion{
+
+#fashion {
     margin-top: 22px;
 }
-  .box {
+
+.box {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 10px;
@@ -422,44 +460,46 @@ arrange
     transition: transform 0.2s;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px; /* Set a fixed width for each box */
+    width: 300px;
+    /* Set a fixed width for each box */
     height: 350px;
-  }
+}
 
-  .box:hover {
+.box:hover {
     transform: translateY(-5px);
-  }
+}
 
-  .box img {
+.box img {
     width: 100%;
     height: 150px;
     object-fit: cover;
-  }
+}
 
-  .box-content {
+.box-content {
     padding: 20px;
-  }
+}
 
-  .box-content h2 {
+.box-content h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-  }
+}
 
-  .box-content p {
+.box-content p {
     margin-top: 10px;
-  }
+}
 
-  .box-content a {
+.box-content a {
     color: #007185;
     text-decoration: none;
     font-weight: bold;
     display: block;
     margin-top: 10px;
-  }
+}
 
-  .box-content a:hover{
+.box-content a:hover {
     color: #c7511f;
-  }
+}
+
 /* footer */
 .footer-panel1 {
     background-color: #37475a;
@@ -533,7 +573,7 @@ ul a{
     background-color: #222f3d;
     color: #DDDDDD;
     border-top: 0.5px solid white;
-    
+
     /* display: flex;
     justify-content: center;
     flex-direction: column;
@@ -543,17 +583,19 @@ ul a{
 .logo {
     background-image: url(amazon_logo.png);
     background-size: cover;
-    margin:auto;
+    margin: auto;
     height: 50px;
     width: 100px;
     margin-bottom: 20px;
 }
-.countries{
+
+.countries {
     text-align: center;
-   padding-left: 10px;
-   padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.countries ul{
+
+.countries ul {
     display: flex;
     gap: 13px;
     flex-wrap: wrap;
@@ -561,7 +603,8 @@ ul a{
     text-align: center;
     padding-left: 0;
 }
-.countries ul li{
+
+.countries ul li {
     display: inline-block;
     list-style-type: none;
     white-space: nowrap;
@@ -573,16 +616,17 @@ ul a{
     white-space-collapse: collapse;
 }
 
-.countries ul li a{
+.countries ul li a {
     color: #DDD;
     text-decoration: none;
     font-family: inherit;
-    
+
 }
 
 .countries ul li a:hover {
     text-decoration: underline;
 }
+
 .footer-panel4 {
     background-color: #131a22;
     color: white;
@@ -630,7 +674,126 @@ ul a{
 }
 
 /* adding hover effects on the links in the shopping section */
-.box-content a:hover{
+.box-content a:hover {
     text-decoration: underline;
-    color:chocolate;
+    color: chocolate;
+}
+
+
+.shop-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-section>div {
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: -webkit-fill-available;
+    height: max-content;
+    height: 50vh;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.small-boxes {
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    height: 70%;
+}
+
+.small-boxes>.small-box>img {
+    height: unset;
+}
+
+.box-container a {
+    color: #007185;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.small-box {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.small-box>div>span:nth-of-type(1) {
+    background: red;
+    color: white;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.title button {
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px rgb(211, 207, 207);
+    color: rgb(43, 42, 42);
+    background-color: #ffd814;
+    width: -webkit-fill-available;
+    /* height: 27px; */
+    /* margin-left: 12px; */
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.box-container>div>img {
+    height: -webkit-fill-available;
+}
+
+.product-slide {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    width: max-content;
+    flex-direction: row;
+}
+
+.product-slide li {
+    margin: 10px;
+    list-style: none;
+    /* margin-right: 10px; */
+    /* margin-bottom: 15px; */
+    cursor: pointer;
+    width: -webkit-fill-available;
+    box-sizing: border-box;
+}
+
+.shop-section>.sec3 {
+    width: -webkit-fill-available;
+    overflow-x: scroll;
+    height: 30vh;
+}
+
+.product-slide li img {
+    object-fit: scale-down;
+    width: unset;
+    aspect-ratio: 1;
+}
+
+body {
+    overflow-x: hidden;
 }
