@@ -10,12 +10,15 @@
 
 .navbar {
     height: 60px;
+    
     background-color: #131a22;
     color: white;
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
 
 .nav-logo {
     height: 50px;
@@ -29,8 +32,8 @@
     width: 100%;
 }
 
-.border {
-    border: 2px solid transparent
+.border:hover {
+    border: 1px solid white
 }
 
 .border:hover {
@@ -231,60 +234,86 @@ span {
 }
 
 /* panel */
-.panel {
+
+
+
+.panel{
     height: 40px;
     background-color: #222f3d;
     display: flex;
+    gap:3px;
+    flex-direction: row;
     color: white;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
-
-div.panel-all {
+div.panel-all  {
     margin-left: 20px;
     margin-right: 10px;
+    width: 60%;
+    
 }
-
-div.panel-option {
-    padding-left: 0px;
-    justify-content: flex-start;
+div.panel-all :hover{
+   border: 1px solid white;
 }
-
-.panel-option {
+.panel-option{
     display: flex;
-    padding-left: 10px;
+    padding-right: 400px;  
+    padding-left: -23px; 
+    
 }
 
-.panel-option p {
-    display: inline;
-    margin-left: 10px;
-    width: auto;
-    text-align: left;
-}
-
-.panel-option p a {
-    color: #f4f4f4;
-    text-decoration: none;
-}
-
-.panel-option {
-    width: 70%;
-    font-size: 0.85rem;
+.panel-option a {
+    text-decoration:none;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: space-evenly;
+    padding:7px 1px;
+    position:relative;
+    font-size: 15px;
+    margin-left: 20px;
+    color: white;
+    width: max-content;
+}
+.panel-option a::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    left:0%;
+    border-top: 1px solid  #222f3d;
+    border-left: 1px solid  #222f3d;
+    border-right: 1px solid  #222f3d;
+    border-bottom: 1px solid  #222f3d;
+}
+.panel-option a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    left:0%;
+    border-top: 1px solid  #222f3d;
+    border-left: 1px solid  #222f3d;
+    border-right: 1px solid  #222f3d;
+    border-bottom: 1px solid  #222f3d;
+}
+.panel-option a:hover::before,
+    a:hover::after{
+        border-top: 1px solid white;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+    width: 100%;
+    height: 100%;
+    
 }
 
-.panel-deals {
-    font-size: 0.90rem;
-    font-weight: 700;
-}
 
-.panel-deals a {
-    text-decoration: none;
-    color: #f4f4f4;
-}
+
+
+
 
 /* hero-section */
 .hero-section {
