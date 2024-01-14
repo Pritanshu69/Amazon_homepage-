@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-size: 13px;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: "Amazon Ember",Arial,sans-serif ;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 130px;
+    height: 40px;
+}
+
+.box {
+    border: 2px solid rgb(42, 42, 42);
+    border-radius: 10px;
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.box * {
+    padding: 6px;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.box strong {
+    padding-left: 0;
+}
+
+.box label {
+    padding-left: 0;
+}
+
+input{
+    border-color: #a6a6a6;
+    border-radius: 5px;
+    border-width: 0.2px;
+    height: 20px;
+    width: 287px;
+    margin-bottom: 15px;
+}
+
+.forget-password{
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.amazon{
+    width: 288px;
+    height: 25px;
+    font-size: 15px;
+    background: linear-gradient(#F7DEA1, #F0C14D);
+    border: 0.5px solid #aaaaaa;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.amazon:hover{
+    background: linear-gradient(#F5D68A, #EEBA36);
+}
+
+.create-account {
+    background: linear-gradient(#f6f7f9, #e7e9ec);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width:288px;
+    height:25px;
+    font-size:15px;
+    border: 0.5px solid #aaaaaa;
+    border-radius:3px;
+}
+
