@@ -11,6 +11,43 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="shortcut icon" href="amazon.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="aos/aos.css" />
+  <script src="aos/aos.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<style>
+  html{
+    scroll-behavior: smooth;
+  }
+.to-top{
+  background-color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 32px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  transition: all .4s; 
+   font-size: 32px;
+  color: #1f1f1f;
+  text-decoration: none;
+  pointer-events: none;
+  
+}
+.to-top.active{
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
+</style>
 </head>
 
 <body>
@@ -133,7 +170,7 @@
       <div class="shop-section">
         <div class="sec1">
 
-          <div class="box">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <img src="box1_image.jpg" alt="Home Decoration">
             <div class="box-content">
               <h2>Home Decoration</h2>
@@ -147,7 +184,7 @@
             </div>
           </div>
           <!--  -->
-          <div class="box box-container">
+          <div class="box box-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
             <div class="title">
               Starting ₹79 | Home decor and furnishings
             </div>
@@ -162,7 +199,7 @@
               more</a>
           </div>
           <!--  -->
-          <div class="box box-container">
+          <div class="box box-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
             <div class="title">
               Popular deals
             </div>
@@ -192,7 +229,7 @@
           </div>
 
           <!--  -->
-          <div class="box box-container">
+          <div class="box box-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
             <div class="title">
               <h3>Sign up for the Best Experience</h3>
               <button>Sign in securely</button>
@@ -204,7 +241,7 @@
         </div>
         <div class="sec2">
 
-          <div class="box box-container">
+          <div class="box box-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="title">
               Minimum 60% off | Deals on Amazon brands & more
             </div>
@@ -217,7 +254,7 @@
             <a href="#">See more</a>
           </div>
           <!--  -->
-          <div class="box box-container">
+          <div class="box box-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
             <div class="title">
               Minimum 60% off | Deals on Amazon brands & more
             </div>
@@ -230,7 +267,7 @@
             <a href="#">See more</a>
           </div>
           <!--  -->
-          <div class="box box-container">
+          <div class="box box-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
             <div class="title">
               Minimum 60% off | Deals on top brands
             </div>
@@ -243,7 +280,7 @@
             <a href="#">See more</a>
           </div>
           <!--  -->
-          <div class="box box-container">
+          <div class="box box-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
             <div class="title">
               Up to 65% off | Bestselling appliances for your home
             </div>
@@ -259,7 +296,7 @@
 
         </div>
         <div class="sec3">
-          <ul class="product-slide">
+          <ul class="product-slide" data-aos="zoom-in" data-aos-duration="1000">
             <li><img src="./asset/25.png" alt=""></li>
             <li><img src="./asset/26.png" alt=""></li>
             <li><img src="./asset/27.png" alt=""></li>
@@ -534,7 +571,11 @@
       </div>
     </div>
   </div>
+  <a href="" class="to-top"><i class="fa-solid fa-circle-arrow-up fa-2x"></i></a>
 </body>
+<script>
+  AOS.init();
+</script>
 <script src="./script.js"></script>
 
 </html>
