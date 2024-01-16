@@ -875,3 +875,8 @@ ul a{
 body {
     overflow-x: hidden;
 }
+
+.nav-signin a {
+    text-decoration: none;
+    color: #dddddd;
+}
