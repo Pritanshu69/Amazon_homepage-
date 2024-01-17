@@ -895,3 +895,159 @@ ul a{
 body {
     overflow-x: hidden;
 }
+
+
+
+@media(max-width:450px){
+    .logo{
+        height: 36px;
+        width: 70px;
+    }
+    .add-first{
+        font-size: 0.67rem;
+        margin-left: -2px;
+    }
+    .add-second{
+        font-size: 0.90rem;
+        margin:0  1px;
+        
+    }
+    .nav-search{
+        height: 33px;
+        margin-left: 5px;
+    }
+    .search-input{
+        font-size: 0.84rem;
+    }
+    span{
+        font-size: 0.54rem;
+    }
+    .nav-second{
+        font-size: 0.75rem;
+    }
+    .nav-cart{
+    margin-right: 7px;
+    font-size: 0.85rem;
+    height: 54%;
+    margin-left: 3px;
+    }
+    svg{
+        font-size: 84%;
+    }
+    .navbar{
+        height: 50px;
+    }
+    .nav-logo{
+        height: 36px;
+    }
+    .nav-signin{
+        margin: 0 5px;
+    }
+    .nav-return{
+        margin: 0 2px;
+    }
+}
+
+
+
+
+
+@media(max-width:800px){
+    .logo{
+        height: 36px;
+        width: 70px;
+    }
+    .add-first{
+        font-size: 0.67rem;
+        margin-left: -2px;
+    }
+    .add-second{
+        font-size: 0.90rem;
+        margin:0  1px;
+        
+    }
+    .nav-search{
+        height: 33px;
+        margin-left: 5px;
+    }
+    .search-input{
+        font-size: 0.84rem;
+    }
+    span{
+        font-size: 0.54rem;
+    }
+    .nav-second{
+        font-size: 0.75rem;
+    }
+    .nav-cart{
+    margin-right: 7px;
+    font-size: 0.85rem;
+    height: 56%;
+    margin-left: 3px;
+    }
+    svg{
+        font-size: 84%;
+    }
+    .navbar{
+        height: 50px;
+    }
+    .nav-logo{
+        height: 36px;
+    }
+    .nav-signin{
+        margin: 0 5px;
+    }
+    .nav-return{
+        margin: 0 2px;
+    }
+}
+@media(max-width:1040px){
+    .logo{
+        height: 45px;
+        width: 80px;
+    }
+    .add-first{
+        font-size: 0.80rem;
+        margin-left: -2px;
+    }
+    .add-second{
+        font-size: 1.1rem;
+        margin:0  5px;
+        
+    }
+    .nav-search{
+        height: 33px;
+        margin-left: 5px;
+    }
+    .search-input{
+        font-size: 0.84rem;
+    }
+    span{
+        font-size: 0.90rem;
+    }
+    .nav-second{
+        font-size: 0.89rem;
+    }
+    .nav-cart{
+    margin-right: 7px;
+    font-size: 0.85rem;
+    height: 56%;
+    margin-left: 20px;
+    }
+    svg{
+        font-size: 132%;
+    }
+    .navbar{
+        height: 50px;
+    }
+    .nav-logo{
+        height: 36px;
+    }
+    .nav-signin{
+        margin: 0 5px;
+        margin-left: 16px;
+    }
+    .nav-return{
+        margin: 0 2px;
+    }
+}
