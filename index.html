@@ -40,12 +40,18 @@
   color: #1f1f1f;
   text-decoration: none;
   pointer-events: none;
-  
+  /* border:20px solid green; */
 }
+
+.to-top:hover{
+  color:#474747;
+}
+
 .to-top.active{
   bottom: 32px;
   pointer-events: auto;
   opacity: 1;
+  
 }
 </style>
 </head>
@@ -598,7 +604,7 @@
       </div>
     </div>
   </div>
-  <a href="" class="to-top"><i class="fa-solid fa-circle-arrow-up fa-2x"></i></a>
+  <a href="#main_body" class="to-top"><i class="fa-solid fa-circle-arrow-up fa-2x"></i></a>
 </body>
 <script>
   AOS.init();
