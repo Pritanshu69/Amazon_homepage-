@@ -981,6 +981,12 @@ body {
         height: -webkit-fill-available;
     }
 
+    .hamburger{
+        width: 70vw;
+        left: 0;
+        height: 100vh;
+    }
+
 
 }
 .panel-option{
