@@ -1,0 +1,328 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product-details,
+.shopping-cart {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.product-details img {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-details h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.product-details p {
+  color: #777;
+}
+
+.shopping-cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.shopping-cart li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.shopping-cart button {
+  background-color: #f0c14b;
+  color: #111;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.shopping-cart button:hover {
+  background-color: #d4aa00;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+}
+
+
+.delivery-status {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.delivery-status-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.delivery-status-line {
+  width: 50px;
+  height: 3px;
+  background-color: #ddd;
+  position: relative;
+  z-index: 1;
+}
+
+.delivery-status-label {
+  color: #777;
+  font-size: 12px;
+}
+
+.product-details {
+  position: relative;
+}
+
+.product-details:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 80%;
+  width: 1px;
+  background-color: #ddd;
+  z-index: -1;
+}
+
+.product-details img {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+  background-color: #f0c14b;
+  color: #111;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #d4aa00;
+}
+
+.search-bar {
+  background-color: #131921;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+  font-size: 14px;
+}
+
+.search-button {
+  background-color: #febd69;
+  color: #111;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.search-button:hover {
+  background-color: #f0c14b;
+}
+
+.cart-total {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cart-total p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#cart-total {
+  font-weight: bold;
+  color: #e47911;
+}
+
+#checkout {
+  background-color: #f0c14b;
+  color: #111;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+#checkout:hover {
+  background-color: #d4aa00;
+}
+
+/* Add this CSS to your existing styles */
+
+/* ...your existing styles... */
+
+.add-to-cart-button {
+  background-color: #f0c14b;
+  color: #111;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #d4aa00;
+}
+
+/* ... your existing styles ... */
+
+.delivery-status-circle {
+  /* ... your existing styles ... */
+  transition: background-color 0.3s, transform 0.3s;
+  /* Add transition for transform */
+}
+
+.delivery-status-line {
+  /* ... your existing styles ... */
+  transition: background-color 0.3s, width 0.3s;
+  /* Add transition for width */
+}
+
+/* ... your existing styles ... */
+.button:hover {
+  background-color: #d4aa00;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Add this CSS to your existing styles */
+
+/* ...your existing styles... */
+
+/* Image zoom effect on hover */
+.product-details img {
+  transition: transform 0.3s;
+}
+
+.product-details img:hover {
+  transform: scale(1.1);
+}
+
+/* Add this CSS to your existing styles */
+
+/* ...your existing styles... */
+
+.product-showcase {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.product-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.product-image:hover {
+  transform: scale(1.1);
+}
+
+.product-details-container {
+  flex: 2;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product-description {
+  font-style: italic;
+  color: #777;
+}

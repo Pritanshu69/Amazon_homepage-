@@ -10,10 +10,10 @@
 
 .navbar {
     height: 60px;
-    
+
     background-color: #131a22;
     color: white;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -58,7 +58,10 @@
     align-items: center;
 }
 
-
+.cartlink {
+    text-decoration: none;
+    color: white;
+}
 
 
 
@@ -237,77 +240,83 @@ span {
 
 
 
-.panel{
+.panel {
     height: 40px;
     background-color: #222f3d;
     display: flex;
-    gap:3px;
+    gap: 3px;
     flex-direction: row;
     color: white;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-div.panel-all  {
+
+div.panel-all {
     margin-left: 20px;
     margin-right: 10px;
     width: 60%;
-    
+
 }
-div.panel-all :hover{
-   border: 1px solid white;
+
+div.panel-all :hover {
+    border: 1px solid white;
 }
-.panel-option{
+
+.panel-option {
     display: flex;
-    padding-right: 400px;  
-    padding-left: -23px; 
-    
+    padding-right: 400px;
+    padding-left: -23px;
+
 }
 
 .panel-option a {
-    text-decoration:none;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding:7px 1px;
-    position:relative;
+    padding: 7px 1px;
+    position: relative;
     font-size: 15px;
     margin-left: 20px;
     color: white;
     width: max-content;
 }
-.panel-option a::before{
+
+.panel-option a::before {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
-    top:0%;
-    left:0%;
-    border-top: 1px solid  #222f3d;
-    border-left: 1px solid  #222f3d;
-    border-right: 1px solid  #222f3d;
-    border-bottom: 1px solid  #222f3d;
+    top: 0%;
+    left: 0%;
+    border-top: 1px solid #222f3d;
+    border-left: 1px solid #222f3d;
+    border-right: 1px solid #222f3d;
+    border-bottom: 1px solid #222f3d;
 }
-.panel-option a::after{
+
+.panel-option a::after {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
-    top:0%;
-    left:0%;
-    border-top: 1px solid  #222f3d;
-    border-left: 1px solid  #222f3d;
-    border-right: 1px solid  #222f3d;
-    border-bottom: 1px solid  #222f3d;
+    top: 0%;
+    left: 0%;
+    border-top: 1px solid #222f3d;
+    border-left: 1px solid #222f3d;
+    border-right: 1px solid #222f3d;
+    border-bottom: 1px solid #222f3d;
 }
+
 .panel-option a:hover::before,
-    a:hover::after{
-        border-top: 1px solid white;
-        border-left: 1px solid white;
-        border-right: 1px solid white;
-        border-bottom: 1px solid white;
+a:hover::after {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
     width: 100%;
     height: 100%;
-    
+
 }
 
 
@@ -657,20 +666,22 @@ ul a{
 }
 
 .footer-panel4 {
-    
+
     background-color: #131a22;
     color: white;
-    width:100vw;
+    width: 100vw;
     height: 300px;
     font-size: 0.70rem;
     text-align: center;
 }
-.footer-panel4  a:hover{
+
+.footer-panel4 a:hover {
     color: white;
     text-decoration: underline;
-    
+
 }
-.foot{
+
+.foot {
     display: flex;
     flex-direction: row;
     gap: 60px;
@@ -680,6 +691,7 @@ ul a{
     text-align: left;
     justify-content: space-evenly;
 }
+
 .foot a {
     background-color: #131a22;
     text-decoration: none;
@@ -691,7 +703,8 @@ ul a{
 .foot p {
     color: grey;
 }
-.foot1{
+
+.foot1 {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -702,6 +715,7 @@ ul a{
     text-align: left;
     justify-content: space-evenly;
 }
+
 .foot1 a {
     background-color: #131a22;
     text-decoration: none;
@@ -711,9 +725,10 @@ ul a{
 }
 
 .foot1 p {
-  color: grey;
-    
+    color: grey;
+
 }
+
 .pages {
     padding-top: 25px;
 }
