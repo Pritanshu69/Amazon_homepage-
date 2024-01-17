@@ -1,5 +1,5 @@
 <div align="center">
-<h2>Amazon_homepage</h2>
+<h2>Amazon_homepage 🌐💻</h2>
   
 <p>I have made a frontend clone of Amazon.com homepage using simple HTML and CSS</p>
 
@@ -39,13 +39,21 @@
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [Contribution](#contribution)
 - [Syncing with Upstream](#syncing-with-upstream)
 - [Rollback a Commit](#rollback-a-commit)
 - [Run Locally](#run-locally)
 - [Contributor's Guide](#contributors-guide)
 
-## Contribution
+## Preview
+
+<div align="center">
+<img src="https://github.com/abhraneel2004/Amazon_homepage-fork/assets/115551450/b5be5b21-4ec7-42a3-b485-e9f6cb5a04db" width="70%">
+</div>
+
+
+## Contribution 🚀
 
 We welcome contributions from the community! If you'd like to contribute to this project, follow these steps:
 
@@ -87,7 +95,7 @@ We welcome contributions from the community! If you'd like to contribute to this
    - The maintainers will review your PR and may request changes.
    - Once approved, your changes will be merged into the main branch.
 
-## Syncing with Upstream
+## Syncing with Upstream 🔄
 
 If the original repository has been updated, sync your fork to include the latest changes:
 
@@ -115,10 +123,22 @@ If the original repository has been updated, sync your fork to include the lates
      git push origin main
      ```
 
-## Rollback a Commit
+## Rollback a Commit ⏪
 
 If you need to undo a commit, you can use the following command:
 
 ```bash
 git revert <commit-hash>
+```
+Replace <commit-hash> with the actual hash of the commit you want to revert.
+
+## Run Locally
+To run the Amazon homepage locally, open the index.html file in your preferred web browser.
+
+## Contributor's Guide 🙌
+Thank you for considering contributing to this project! Your involvement makes this project better. Feel free to explore new features, fix bugs, or improve the overall design.
+
+Remember, every contribution, no matter how small, is highly valued. Let's build something amazing together! 🌟
+
+Happy Coding! 🚀
 
