@@ -986,11 +986,15 @@ body {
     .panel {
         width: -webkit-fill-available;
     }
+    div.panel-all{
+        width: 30%;
+    }
 
     .nav-cart {
         grid-area: 3/3/4/4;
     }
 
+    .panel-option a:nth-of-type(4),
     .panel-option a:nth-of-type(5),
     .panel-option a:nth-of-type(6),
     .panel-option a:nth-of-type(7),
