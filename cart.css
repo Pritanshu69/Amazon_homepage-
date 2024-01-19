@@ -3,11 +3,14 @@ https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-hm-dsk-r
 */
 
 * {
+
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    overflow-x: hidden;
+
 }
 
 .header {
@@ -585,7 +588,9 @@ body {
 .mainbox {
     width: 100%;
     background-color: #fffcfc;
-    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .box1 {
@@ -595,21 +600,33 @@ body {
     margin-top: 30px;
 }
 
+.mbox2 {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    max-width: 300px;
+
+}
+
 .box2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 25px;
-    flex-wrap: wrap;
+    padding: 8px;
+    flex-direction: column;
+    width: 100%;
 }
 
 .para1 {
-    padding: 8px;
+    text-align: justify;
+    margin-top: auto;
+    font-size: 15px;
+    color: rgb(98, 98, 142);
 }
 
 .btn1 {
     border: none;
-    padding: 15px;
+    padding: 7px;
     border-radius: 25px;
     background-color: orange;
     color: #000000;
@@ -618,6 +635,7 @@ body {
     margin-bottom: 10px;
     cursor: pointer;
     transition: box-shadow 0.3s ease;
+    letter-spacing: 1.1px;
 }
 
 .btn1:hover {
@@ -626,21 +644,28 @@ body {
 }
 
 .cardcontainer {
-    max-width: 400px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    gap: 15px;
-    box-shadow: 0 0 20px rgba(44, 46, 44, 0.9);
+    gap: 10px;
     margin-bottom: 25px;
 }
 
 .img1 {
-    width: 200px;
+    width: 100px;
     height: auto;
+    margin-bottom: auto;
 }
 
+.innercard {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa {
+    width: 12px;
+    height: 20px;
+}
 
 .checked {
     color: orange;
@@ -917,5 +942,57 @@ ul a{
         text-align: center;
         justify-content: center;
         gap: 20px;
+    }
+}
+
+@media(max-width:1077px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .mainbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box2 {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mbox2 {
+        max-width: 100% !important;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: auto;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .cardcontainer {
+        flex-direction: column;
+        max-width: 300px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .box2 {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .para1 {
+        text-align: center;
+        word-wrap: break-word;
+        padding: 10px;
+    }
+
+    .innercard {
+        text-align: center;
+    }
+
+    .btn1 {
+        margin-bottom: 10px;
     }
 }
