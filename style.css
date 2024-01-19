@@ -986,7 +986,8 @@ body {
     .panel {
         width: -webkit-fill-available;
     }
-    div.panel-all{
+
+    div.panel-all {
         width: 30%;
     }
 
@@ -1055,7 +1056,11 @@ body {
     }
 
     .box-content h2 {
-        font-size: medium;
+        font-size: small;
+    }
+
+    .box-content p {
+        font-size: x-small;
     }
 
     .box-content {
@@ -1096,6 +1101,24 @@ body {
         width: 80%;
     }
 
+    .foot,
+    .foot1 {
+        margin-right: unset;
+        padding: 40px 0;
+        gap: unset;
+        flex-wrap: wrap;
+    }
+
+    .foot>a,
+    .foot1>a {
+        width: 40%;
+    }
+
+    .footer-panel4>div {
+        gap: 10px;
+    }
+
+
 
 }
 
@@ -1105,6 +1128,101 @@ body {
         font-size: x-small;
     }
 
+}
+
+@media screen and (max-width:350px) {
+
+    .title button {
+        margin: 5px 0;
+        padding: 5px 0;
+    }
+
+    .title h3 {
+        font-size: xx-small;
+    }
+
+    .box-container a {
+        font-size: xx-small;
+    }
+
+    .box {
+        margin-bottom: 20px;
+    }
+    .title{
+        font-size: xx-small;
+    }
+    .title button{
+        font-size: x-small;
+    }
+    .box-content p{
+        font-size: 6px;
+    }
+    #Homedec{
+        font-size: xx-small;
+    }
+    .box-content h2{
+        font-size: xx-small;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    .foot,
+    .foot1 {
+        margin-right: unset;
+        padding: 40px 0;
+        gap: unset;
+        flex-wrap: wrap;
+    }
+
+    .foot>a,
+    .foot1>a {
+        width: 40%;
+    }
+
+    .footer-panel4>div {
+        gap: 10px;
+    }
+
+    .panel-all>button {
+        font-size: x-small;
+    }
+
+    .panel-option>a {
+        font-size: x-small;
+    }
+    .shop-section>.sec3{
+        height: 15vh;
+    }
+
+
+    .logo {
+        width: 65px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .nav-second {
+        font-size: x-small;
+    }
+
+    .add-first {
+        font-size: x-small;
+        margin-left: 0;
+    }
+    .address-icon svg{
+        height: 10px;
+    }
+    .add-second{
+        font-size: x-small;
+    }
+    .nav-cart{
+        font-size: small;
+    }
+    .nav-cart svg{
+        height: 10px;
+    }
 }
 
 @media screen and (min-width:751px) and (max-width:1200px) {
@@ -1240,4 +1358,16 @@ body {
 
 .shop-section {
     margin-left: unset;
+}
+
+.navbar {
+    height: max-content;
+}
+
+.footer-panel4>div {
+    height: max-content;
+}
+
+.footer-panel4 {
+    height: max-content;
 }
