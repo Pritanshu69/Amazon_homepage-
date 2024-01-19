@@ -91,3 +91,26 @@ input{
     border-radius:3px;
 }
 
+footer {
+    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, rgba(227, 227, 227, 0.904), rgb(255, 255, 255));
+    padding: 20px;
+    text-align: center;
+    margin: 40px 30px;
+}
+
+div a {
+    text-decoration: none;
+    color: #024ba6;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+footer p {
+    font-size: 11px;
+}
+
+div a:hover {
+    color: #d86f06;
+    text-decoration: underline;
+}
