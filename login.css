@@ -6,7 +6,7 @@ body {
     display: block;
     justify-content: center;
     align-items: flex-start;
-    min-height: 100vh;
+    min-height: 110vh;
     background-color: #ffffff;
     font-family: "Amazon Ember",Arial,sans-serif ;
 }
@@ -15,11 +15,12 @@ body {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+
 }
 
 img {
-    max-width: 130px;
-    height: 40px;
+    width: 140px;
+    height: 90px;
 }
 
 .box {
@@ -30,6 +31,7 @@ img {
     margin: 0 auto;
     border: 1px solid #ccc;
     padding: 20px;
+    
 }
 
 .box * {
@@ -49,25 +51,25 @@ h1 {
 
 .box label {
     padding-left: 0;
+    margin: 6px;
 }
 
 input{
-    border-color: #a6a6a6;
+    border-color: black;
     border-radius: 5px;
     border-width: 0.2px;
     height: 20px;
-    width: 287px;
+    width: 280px;
     margin-bottom: 15px;
-}
+    margin: 5px ;
+    }
 
-.forget-password{
-    padding-top: 0;
-    padding-left: 0;
-}
+
+
 
 .amazon{
-    width: 288px;
-    height: 25px;
+    width: 295px;
+    height: 30px;
     font-size: 15px;
     background: linear-gradient(#F7DEA1, #F0C14D);
     border: 0.5px solid #aaaaaa;
@@ -90,4 +92,65 @@ input{
     border: 0.5px solid #aaaaaa;
     border-radius:3px;
 }
-
+.Conditions a{
+    text-decoration: none;
+}
+.Conditions a:hover{
+    text-decoration: underline;
+}
+.help a{
+    text-decoration: none;
+}
+.help a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+.shop{
+    border-top: 0.5px  solid rgb(211, 202, 202);
+    
+}
+.shop a{
+    text-decoration: none;
+}
+.shop a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+.new{
+    margin: 20px auto;
+    text-align: center;
+    color: #7d7a7a;
+    
+}
+.account a{
+    width: 350px;
+    height: 40px;
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+    border: 0.5px solid #aaaaaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin:30px auto;
+    }
+.privacy {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    border-top: 0.5px  solid rgb(211, 202, 202);
+    
+}
+.privacy a {
+    text-decoration: none;
+    margin-top: 30px;
+    
+}
+.privacy a:hover{
+    text-decoration:underline;
+}
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
