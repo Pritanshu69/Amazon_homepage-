@@ -452,7 +452,10 @@ img {
 .shop {
     background-color: #f4f4f4;
 }
-
+.shop-section a:hover{
+    color: orange;
+    text-decoration: underline;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -656,7 +659,6 @@ ul a{
 .logo select{
     color: white ;
     background-color: #222f3d;
-    width: 9999900px;
     height: 40px;
     margin-top:5px;
 }
