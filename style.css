@@ -619,8 +619,7 @@ ul a{
 .footer-panel3 {
     background-color: #222f3d;
     color: #DDDDDD;
-    border-top: 0.5px solid white;
-
+    border-top: 0.2px solid rgb(82, 82, 82);
     /* display: flex;
     justify-content: center;
     flex-direction: column;
@@ -628,12 +627,22 @@ ul a{
 }
 
 .logo {
-    background-image: url(amazon_logo.png);
+    background-image: url(amazon_logo.wbep);
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
     margin: auto;
     height: 50px;
     width: 100px;
     margin-bottom: 20px;
+}
+.logo select{
+    color: white ;
+    background-color: #222f3d;
+    width: 9999900px;
+    height: 40px;
+    margin-top:5px;
 }
 
 .countries {
@@ -652,8 +661,10 @@ ul a{
 }
 
 .countries ul li {
-    display: inline-block;
+    display: flex;
     list-style-type: none;
+    flex-direction: row;
+    margin: 5px;
     white-space: nowrap;
     font-size: 0.7rem;
     overflow-wrap: break-word;
