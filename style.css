@@ -18,6 +18,11 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 .nav-logo {
@@ -204,6 +209,7 @@ span {
 
 }
 
+
 /* Cart Logo */
 .nav-cart-link {
     color: white;
@@ -265,13 +271,14 @@ div.panel-all :hover {
     display: flex;
     padding-right: 400px;
     padding-left: -23px;
+    margin-right: 410px;
 
 }
 
 .panel-option a {
     text-decoration: none;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-evenly;
     padding: 7px 1px;
     position: relative;
@@ -636,7 +643,7 @@ ul a{
 }
 
 .logo {
-    background-image: url(amazon_logo.webp);
+    
     background-size: cover;
     display: flex;
     flex-direction: row;
